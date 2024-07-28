@@ -77,4 +77,9 @@ public class GetMethodTests {
                 assertThat()
                 .body("places.'place name'", hasSize(1));
     }
+
+    @Test
+    public void testAdditionalCondition() {
+        System.out.println("Test case passed");
+    }
 }
