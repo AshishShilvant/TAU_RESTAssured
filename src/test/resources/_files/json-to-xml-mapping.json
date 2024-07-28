@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "http://api.zippopotam.us/"
+  },
+  "response": {
+    "status": 200,
+    "body": "{\"key\":\"value\"}",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "transformers": ["json-to-xml-transformer"]
+  }
+}
