@@ -87,4 +87,14 @@ public class GetMethodTests {
     public void testSecondCondition() {
         System.out.println("Test case passed");
     }
+
+    @Test
+    public void testThirdCondition() {
+        System.out.println("Test case passed");
+    }
+
+    @Test
+    public void testFourthCondition() {
+        System.out.println("Test case passed");
+    }
 }
